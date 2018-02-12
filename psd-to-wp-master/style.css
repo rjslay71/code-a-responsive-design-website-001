@@ -228,8 +228,8 @@ footer a{
 		display:  block;
 		height: 40px;
 		width: 100%;
-		background: url(images/burger2.png) no-repeat 98% center;
-		background-color: #E1E1E1;
+		background: url(images/burger.png) no-repeat 98% center;
+		background-color: #505050;
 		cursor: pointer;
 	}
 	
@@ -255,7 +255,7 @@ footer a{
 		margin: 0;
 	}
 	
-	header nav ul li{
+	header nav ul li a{
 		color: #fff;
 		padding: 10px;
 		border-bottom: 1px solid #404040;

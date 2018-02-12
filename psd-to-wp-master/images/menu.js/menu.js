@@ -1,10 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
-</body>
-</html>
+$(document).ready(function(){
+	
+	$(".burger-nav").on("click", function(){
+		
+		$("header nav ul").toggleClass("open");
+	});
+	
+});
