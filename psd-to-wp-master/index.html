@@ -9,7 +9,7 @@
 			// Picture element HTML5 shiv
 			document.createElement( "picture" );
 		  </script>
-		  <script src="http://cdn.rawgit.com/scottjehl/picturefill/master/dist/picturefill.js" async></script>
+		  <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js" async></script>
     </head>
 
     <body>
@@ -35,10 +35,16 @@
         <!-- Start homepage content -->
         
         <div id="main-banner">
-            <img src="images/banner.jpg" alt="Welcome to Resto">
+			<picture>
+				<source scrset="images/banner -small.jpg" media="(max-width:480px)"/>
+				<source scrset="images/banner -medium.jpg" media="(max-width:768px)"/>
+				<img scrset="images/banner.jpg" alt="pic"/>
+			</picture>
+            
         </div>
         
         <div class="wrapper">
+			
         <section id="home-menu">
             <h2>Menu</h2>
             <ul>
